@@ -1,0 +1,13 @@
+I used perl since we all have it configured from programming languages and it is pretty straight-forward when it comes to http requests. If you get an error that the module UUID::Generator::PurePerl is not installed... Do this:
+
+1. cpan::App cpanminus (I didn't need to use sudo but try using it if you get problems without it) 
+2. sudo cpan UUID::Generator::PurePerl
+
+
+- I believe UUID is the only module that may not be already installed from Programming Languages, but if there are other modules it is saying have not been installed then use the same syntax from 2 to install them. 
+- I just selected the auto-configuration (as much possible) and installed everything locally when given the choices after command 1 (just keep hitting enter after command 1)
+- It asks to mirror other sites to install perl modules, I believe this is the official cpan site but i'm not positive. cpan is very reputable for perl so I trusted their installation process.
+
+
+- after executing, a folder containing all of the QR codes is created within the main directory. In order to run the program again, you must either delete that folder, or change the folder name specified in the program. This is so you don't generate a ton of files and accidentally overwrite them.
+- The textfiles should get overwritten everytime the program executes, so it is not necessary to delete them everytime (it's personal preference).
